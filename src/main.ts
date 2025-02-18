@@ -1,9 +1,23 @@
+//import { studentsID } from './objects/objects';
 import './style.css'
-import { age, id, name } from './types-basic/types-basic'
+//import { age, id, name, isValid } from './types-basic/types-basic';
+import { andres } from './classes/classes';
+
+//types-basic.ts
+//document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+//  <h1>Hello I'm ${name}, I'm ${age} years old, and my id is ${id}!</h1> 
+//`
+// String multilinea con template literals (backticks)s
+
+
+//objects.ts
+//document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
+//  <h1>Hello! ${studentsID.join('*')}</h1> 
+//`;
 
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <h1>Hello I'm ${name}, I'm ${age} years old, and my id is ${id}!</h1> 
-`
-// String multilinea con template literals (backticks)s
+  <h1>Hello! ${andres.age}</h1> 
+`;
 
+// Qué son los getter y setter? Son métodos especiales que se utilizan para acceder y modificar los atributos de una clase.
