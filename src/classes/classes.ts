@@ -1,26 +1,30 @@
-import { age } from '../types-basic/types-basic';
+//import { age, isValid } from '../types-basic/types-basic';
 // Qué es una clase en una programación orientada a objetos? Una clase es una plantilla para crear objetos, proporciona inicialización de estado (atributos) 
 // y comportamiento (métodos). En TypeScript, las clases se definen con la palabra clave class seguida del nombre de la clase. Las clases pueden tener atributos y métodos. 
 // Los atributos son variables que almacenan datos y los métodos son funciones que realizan acciones. 
 
+/*
 export class Student{
     id:number; //No está inicializado, la mejor practica es inicializarlo en el constructor de la clase, porque es un atributo obligatorio.
-    name:string; //Lo recomendado es NUNCA inicializar las variables.
+    name:string;
+    age:number; //Lo recomendado es NUNCA inicializar las variables.
+    private isValid:boolean;
     //age:number; //SIEMPRE se debe inicializar en el constructor.
 
-    get getAge():number{ //Esto reemplaza el atributo age, es un getter, es decir, reemplaza la asignación de la variable.
-        return this.getAge;
+    get isValid():boolean{ //Esto reemplaza el atributo age, es un getter, es decir, reemplaza la asignación de la variable.
+        return this._isValid;
     }
 
 
-    set setAge(newAge:number){ //Esto reemplaza el atributo age, es un setter, es decir, reemplaza la asignación de la variable.
-        this.SetAge = setAge;
+    set isValid(validation:boolean){ //Esto reemplaza el atributo age, es un setter, es decir, reemplaza la asignación de la variable.
+        this._isValid = validation;
     }
 
     constructor(id:number, name:string, age:number){
         this.id = id; //La palabra this hace referencia a la instancia de la clase, es decir, al objeto que se está creando.
         this.name = name; //Una instancia es un objeto que se crea a partir de una clase.
-        //this.age = age; //El constructor es un método especial que se llama cuando se crea una instancia de la clase, se llama con la palabra clave new.
+        this.age = age; //El constructor es un método especial que se llama cuando se crea una instancia de la clase, se llama con la palabra clave new.
+        this._isValid = false;
     }
 
     //Para restringir el acceso a los atributos de una clase, se pueden declarar como private, protected o public.
@@ -29,6 +33,15 @@ export class Student{
     //public: se puede acceder desde cualquier parte del código.
     
     //Cuando creo una instancia de una clase, estoy creando un objeto que tiene los atributos y métodos de la clase.
+
+
+    joinClass(){
+        console.log(`${this.name} has joined the class.`);
+    }
+
+    activateStudent(){
+        console.log(`${this.name} has activated the student.`);
+    }
 
 }
 
@@ -45,3 +58,4 @@ andres.setAge = 40; //Error: Property 'SetAge' does not exist on type 'Student'.
 
 
 
+*/
