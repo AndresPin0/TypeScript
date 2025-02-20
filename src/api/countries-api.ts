@@ -25,3 +25,9 @@ export class CountriesApiFetch implements HttpAdapter{
         return data;
     }
 }
+
+//Que es express? 
+
+// Express es un framework de Node.js que nos permite crear aplicaciones web de manera sencilla y rápida.
+// Express nos proporciona una serie
+// de herramientas y métodos que nos facilitan la creación de servidores y aplicaciones web.
