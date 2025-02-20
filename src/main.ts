@@ -38,3 +38,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 // Qué es una función anonima? Es una función que no tiene nombre.
 
 // Qué es una función flecha? Es una forma más corta de escribir una función.
+
+// Tiene la forma de un pato, camina como un pato y suena como un pato, entonces es un pato. Qué concepto de programación se está aplicando? Duck typing. 
+
